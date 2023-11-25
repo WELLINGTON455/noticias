@@ -1,0 +1,261 @@
+body{
+	background-color: #dee4fb;
+	margin: 0px;
+	padding: 0px;
+	
+	font-family: "trebuchet MS", helvestica, sans-serif;
+	
+}
+
+
+.divengloabatudo{
+	background: url(../imagens/fundo.png) repeat-x top   ;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.container{
+	background: url(../imagens/detalhe-topo.png) no-repeat top right  ;
+	width: 986px;
+	margin:0px auto;
+	
+}
+
+.marca{
+	width: 150px;
+}
+
+.distanciadlogo{
+	height: 40px;
+}
+
+/*mennu do cabessalho*/
+.linkmenu{
+	padding: 5px 10px;
+	text-decoration: none;
+	width: 105px;
+	height: 40px;
+	display: block;
+	float: left;
+	background-color: #ea0027;
+	text-decoration: none;
+	color: white;
+	/*text-indent: 20px;*/
+	line-height: 40px;
+	text-align: center;
+	/*font-family: impact;*/
+		}
+
+
+
+/*Links Hover, passa o cursor sobre o link*/
+#a:hover{
+	color: white;
+	background: #d30023;
+		}
+.home1 .divdomenu .home a, .noticias1 .divdomenu .noticias a  {
+	color: #FFF;
+	background: #d30023;
+
+}
+
+
+.distanciadcabessalho{
+	height: 73px;
+}
+
+.lugadanoticias{
+	width: 762px;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.noticia{
+	width: 250px;
+	height: 350px;
+	word-wrap: break-word;
+	background: white;
+	float: left;
+	margin: 2px;
+	overflow: hidden;/*esconde qualquer texto que vaza pelos lados*/
+    text-overflow: ellipsis;/* adiciona três pontos (…) ao final do texto se ele for muito longo*/
+ /*   white-space: nowrap;/*impede que o texto quebre para a próxima linha*/
+}
+.imagemnoticia{
+	width: 246px;
+	margin: 2px;
+}
+
+.h2danoticia{
+	color: white;
+	background:#2b4d9f;
+
+	margin: 0px;
+	padding: 2px;
+
+}
+
+.h3danoticia{
+	color: white;
+	background:#ea0027 ;
+	width: 238px;
+	margin: 2px;
+	padding: 4px;
+}
+
+.pdanoticias{
+	padding: 3px;
+	margin: 2px;
+}
+
+.menuentrevistas{
+	width: 200px;
+	margin: 0px;
+	float: left ;
+	background: white ;
+	word-wrap: break-word;
+}
+
+.h2domenulaterais1{
+	color: white;
+	background:#2b4d9f;
+	margin: 0px;
+	padding: 2px;
+
+}
+
+.linkentrevista{
+	display: block;
+	margin: 16px 2px;
+	text-decoration: none;
+	/*text-transform: uppercase;*/
+	font-weight: bold;
+	font-size: 18px;
+	border-bottom: 1px solid gray;
+
+
+}
+.enviesugentaodemateria{
+	width: 200px;
+	margin-top: 4px;
+	float: left ;
+	background: white;
+	word-wrap: break-word;
+}
+
+#mensagem{
+	width:194px;
+	height: 60px;
+	max-width: 194px;
+	min-width: 194px;
+	max-height: 200px;
+
+}
+
+.separadordoblocks{
+
+	background: #ea0027;
+	height: 16px;
+	float: left;
+	width: 986px;
+	margin: 2px 0px;
+}
+
+
+.mundo{
+	width: 485px;
+	margin: 2px 2px;
+	padding: 2px;
+	/*height: 300px;*/
+	word-wrap: break-word;
+	/*background: #d3cbcb;*/
+	float: left;
+
+}
+.h2noticiasdomundo{
+	background:#2b4d9f ;
+	color: white;
+	margin: 0px;
+	padding: 3px;
+}
+
+.noticiasrecentes{
+	width: 485px;
+	margin: 2px 2px;
+	padding: 2px;
+	word-wrap: break-word;
+	/*background: #d3cbcb;*/
+	float: left;
+}
+
+.h2danoticiarecentes{
+	background:#2b4d9f ;
+	color: white;
+	margin: 0px;
+	padding: 3px;
+}
+
+
+.blockmenuinferio{
+	margin: 4px 0px;
+	height: 74px;
+	background: white;
+}
+
+.imgdclokdomenuconte{
+	height: 72px;
+	
+	float: left;
+	
+}
+
+.contblockmenuinferio{
+	width: 365px;
+	float: right;
+
+	height: 72px;
+
+}
+
+.h3contblockmenuinferio{
+	padding: 0px;
+	margin: 0px;
+}
+
+.pcontblockmenuinferio{
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+}
+.linkdoblock{
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear{
+	clear: both;
+
+}
+
+.rodape{
+
+	height: 400px;
+	background: #2b4d9f ;
+}
